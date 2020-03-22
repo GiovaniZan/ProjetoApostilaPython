@@ -9,9 +9,8 @@
 \abntrefinfo{Lutz}{LUTZ}{2006}
 {LUTZ, M. \emph{Programming Python, 3rd Edition}. [S.l.]: O'Reilly, 2006.}
 
-\bibitem[Norton Alex~Samuel 2005]{Norton}
-\abntrefinfo{Norton Alex~Samuel}{NORTON ALEX~SAMUEL}{2005}
-{NORTON ALEX~SAMUEL, D. A. E. F.-J. L. R. J. D. A. P. M.~R. P. \emph{Beginning
-  Python}. [S.l.]: Wrox, 2005.}
+\bibitem[Norton et al. 2005]{Norton}
+\abntrefinfo{Norton et al.}{NORTON et al.}{2005}
+{NORTON, P. et al. \emph{Beginning Python}. [S.l.]: Wrox, 2005.}
 
 \end{thebibliography}

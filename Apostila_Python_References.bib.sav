@@ -8,7 +8,7 @@
 }
 
 @Book{Norton,
-  author    = {Peter Norton and Alex Samuel and David Aitel and Eric Foster-Johnson and Leonard Richardson and Jason Diamond and Aleatha Parker and Michael Roberts},
+  author    = {Peter Norton and Alex Samuel and David Aitel and Eric Foster-Johnson, Leonard Richardson, Jason Diamond, Aleatha Parker, Michael Roberts},
   publisher = {Wrox},
   title     = {Beginning Python},
   year      = {2005},
