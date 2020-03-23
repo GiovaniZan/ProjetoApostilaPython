@@ -15,7 +15,7 @@ Apostila para ensino de Python básico para pessoas sem conhecimento prévio de 
   - Treinamento mais avançado - SciPy e NumPy
   - Fazer banco de problemas a serem resolvidos através de Python para elaborar um "cookbook" 
   - Separar capítulos em arquivos individuais quando o troço ficar grande.
-
+  - 
 ## DONE
    - Troço iniciado
    - Projeto no GitHub 
@@ -23,6 +23,9 @@ Apostila para ensino de Python básico para pessoas sem conhecimento prévio de 
 ---
 
 ## "O Estado da coisa" 
+ ### 22/03/2020
+   1. Iniciado a apostila 2, com arquivo principal : "Apostila_Python_CookBook_Parte2.tex", usando mesmo arquivo de referências bibliográficas  "Apostila_Python_References.bib".
+   2. O arquivo "Apostila_Python_CookBook_Parte2.tex" inclui ao ser compilado o arquivo "APC_Parte2_EstatiBasica_v1.tex", que contém apenas o conteúdo sob o capítulo de NumPy e Estatística básica.
 
  ### 21/03/2020
   1. Para usar o Visual Studio Code como GUI para o LaTex, é necessário instalar a extensão "LaTex Workshop". Recomendado também a "LaTex language support" e "LaTex Snippets". 
@@ -33,7 +36,7 @@ Apostila para ensino de Python básico para pessoas sem conhecimento prévio de 
   1. Esqueleto da apostila em AbnTex2 funcionando. "Apostila_Python_CookBook.tex"
      1. Futuramente separamos os capítulos em arquivos individuais
   2. Iniciado arquivo de referências bibliográficas: "Apostila_Python_References.bib"
-      1. gerenciado pelo software JabRef. ( As referências bibliográficas são chatas de gerenciar diretamente por LATEx devido a formatação. Este software orna as coisas mais fáceis. )
+      1. gerenciado pelo software JabRef. ( As referências bibliográficas são chatas de gerenciar diretamente por LATEx devido a formatação. Este software torna as coisas mais fáceis. )
    3. Ainda não consegui descobrir como fazer o Visual Studio Code compilar corretamente o arquivo tex. Recomendo o TeXworks (padrão do MikTex) para edição. [utilizar utf8]     
 
  ### 15/03/2020 
@@ -43,9 +46,13 @@ Apostila para ensino de Python básico para pessoas sem conhecimento prévio de 
 ## Autores e colaboradores 
 
 Giovani Zanelatto - LATEX guru 
+
 Victor Bergossi - 
+
 Gabriel Selow - 
+
 Leo ?? 9687-1698
+
 9846-7571
 
 

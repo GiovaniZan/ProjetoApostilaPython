@@ -1,0 +1,56 @@
+%% ------------------------------------------------------------
+%\chapter{Estatística básica e numpy/matplotlib}\label{EstatisticaPython}
+%% ------------------------------------------------------------
+%Conceitos básicos de estatística (Média, mediana, moda, desvio padrão e variância)
+%Operações com array usando a biblioteca numpy e arrays padrões 
+
+\section{NumPy}
+Escrever sobre o NumPy...
+O NumPy é a abreviação de Numerical Python e é uma biblioteca Python escrita para trabalhar com vetores e matrizes, incluindo funções na área de álgebra linear e transformadas de Fourier. \cite{NumPyUserGuideRelease1.18.1}
+
+
+
+\section{Resumo de estatísitca}
+
+Em geral, estatísticos não gostam de serem denominados de matemáticos. A Estatística é tratada por seus especialistas (estatísticos) como uma ciência à parte da Matemática. Assim como a Física ou a Engenharia, a Estatística utiliza a Matemática como ferramenta. Abordaremos neste breve resumo apenas as definições básicas e fundamentais, sem entrar em mais detalhes. Se seu problema envolver algo mais elaborado ou se você tiver curiosidade sobre este fascinante tema, recomendamos a leitura das referências:   \cite{Est_Bussab}, \cite{Est_NilzaNunes}, \cite{EST_Montgomery} e \cite{Est_Meyer}.
+
+
+\subsection{Definições Importantes}
+Para a situação de dados discretos:
+\subsubsection{Média Aritmética}
+Dado um conjunto de $12$ valores: $93$, $94$, $95$, $97$, $98$, $98$, $100$, $101$, $101$, $104$, $105$, e $108$ a média aritmética $\bar x$ é dada por:
+\[
+\bar x = \frac{93+94+95+97+98+98+100+101+101+104+105+108}{12}  = 99,5   
+\]
+Em uma notação mais compacta e elegante escrevemos que a média aritmética de um conjunto de $N$ valores $x_1$ até $x_N$ é dado por
+\[
+    \bar x = \frac{1}{N}\sum_{i=1}^N x_i = \frac{2}{N} (x_1 + x_2 + x_3 + \cdots + x_N )
+\]
+
+%\usepackage{pythonhighlight} %% google ctan
+Definindo uma função em Python:
+%%% verificar este trecho de código!%%%%%%%%%%%%
+\begin{python}
+    def media_aritm(x):
+    if len(x) == 0:
+        return 0
+    else:
+        soma = 0
+        for i in x:
+            soma = soma + i
+        return soma/len(x)
+\end{python}
+
+Alternativamente podemos usar a função sum() e Escrever
+\begin{python}
+    def media_aritm(x):
+         return sum(x)/len(x)
+\end{python}
+
+Utilizando a biblioteca NumPy simpesmente invocamos o método:
+\begin{python}
+    numpy.mean(x)
+\end{python}
+
+
+
